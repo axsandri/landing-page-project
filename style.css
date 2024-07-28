@@ -1,9 +1,191 @@
+
+
 body {
- 
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+
+.header-container {
+    background-color: #1f2937;
+    color: white;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 30px;
+}
+
+.nav-menu {
+    
+}
+
+
+
+
+/*  Main section */
+
+.main-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.main-section-text {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.main-section-text h1 {
+    font-size: 48px;
+    margin-bottom: 0;
 
 }
 
+.hero-subtext {
+    color: #e6e6e6;
+    margin-top: 0;
+}
+
+.main-section-img {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: rgb(52, 122, 226);
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+
+
+/* Section Two */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info-card-section {
+    display: flex;
+    width: 65%;
+    color:rgb(66, 66, 66);
+    margin: 40px 0 80px 0px;
+
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 12px
+
+}
+
+.info-card img {
+    border: 4px solid rgb(57, 135, 252);
+    border-radius: 16px;
+}
+
+
+
+
+/*  Quote Section  */
+
+.quote {
+    padding: 80px 180px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0px 80px;
+}
+
+.quote-author {
+    align-self: self-end;
+    padding-right: 150px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+
+
+/*  Hero section  */
+
+.hero-section {
+    padding: 80px 190px;
+}
+
+.hero-container {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    border-radius: 14px;
+    padding: 20px 40px;
+}
+
+.hero-container .cta-button {
+    border: 2px solid white;
+    background-color: #3882f6;
+}
+
+.signup-info{
+    color: #f1f1f1;
+    margin-top: 0;
+}
+
+.hero-container h2 {
+    margin-bottom: 0;
+}
+
+
+
+/*  Footer  */
+
+.footer {
+    background-color: #1f2937;
+    padding: 18px 0px;
+    text-align: center;
+    color:#E5E7EB
+}
